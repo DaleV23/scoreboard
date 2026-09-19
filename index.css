@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'E1234';
+  src: url('../Scrim-s04k019/E1234.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Global Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 70px;
+
+    background: #1A1A1A;
+    color: white;
+    text-align: center;
+}
+
+/* Scorer Section */
+.scorer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Team Headings */
+.home h3,
+.guest h3 {
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+
+/* Score Boxes */
+#H-score,
+#G-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 250px;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-radius: 12px;
+
+    background-color: black;
+    color: red;
+
+    font-family: 'E1234',monospace;
+    font-size: 80px;
+}
+
+/* Button Container */
+.btn-container {
+    display: inline-block;
+    width: 200px;
+}
+
+/* Buttons */
+button {
+    padding: 17px;
+    margin: 1px;
+
+    color: white;
+    background-color: transparent;
+
+    border: 3px solid white;
+    border-radius: 4px;
+}
