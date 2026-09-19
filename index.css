@@ -27,6 +27,7 @@ body {
     background: #1A1A1A;
     color: white;
     text-align: center;
+    border-radius: 20px;
 }
 
 /* Scorer Section */
